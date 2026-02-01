@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EnvHomes LLC | Painting • Turnovers • Facilities Maintenance | Apex, NC</title>
+  <meta name="description" content="EnvHomes LLC provides interior/exterior painting, apartment turnovers, facilities maintenance, drywall repair, pressure washing, and light repairs in Apex, NC and a 30-mile radius. By appointment." />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Social preview -->
+  <meta property="og:title" content="EnvHomes LLC | Apex, NC" />
+  <meta property="og:description" content="Painting • Turnovers • Facilities Maintenance • Light Repairs. Apex, NC • 30-mile radius. By appointment." />
+  <meta property="og:type" content="website" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="EnvHomes Home">
+        <span class="brand__mark">EH</span>
+        <span class="brand__text">EnvHomes LLC</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#work">Work</a>
+        <a href="#contact" class="btn btn--small">Get a Quote</a>
+      </nav>
+
+      <button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+
+    <div class="mobileNav" id="mobileNav">
+      <a href="#services">Services</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Get a Quote</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div>
+          <p class="pill">Apex, NC • 30-mile radius • By appointment</p>
+
+          <h1>Reliable Maintenance, Turnovers & Painting—Done Clean and On Schedule</h1>
+
+          <p class="lead">
+            EnvHomes LLC handles apartment turnovers, facilities maintenance, painting, and light repairs with clear communication and professional finish work.
+          </p>
+
+          <div class="cta">
+            <a class="btn" href="#contact">Request a Quote</a>
+            <a class="btn btn--ghost" href="tel:+19197179559">Call 919-717-9559</a>
+          </div>
+
+          <div class="trust">
+            <div class="trust__item">
+              <div class="trust__big">★★★★★</div>
+              <div class="trust__small">Top-rated client feedback</div>
+            </div>
+            <div class="trust__item">
+              <div class="trust__big">Fast</div>
+              <div class="trust__small">Response & scheduling</div>
+            </div>
+            <div class="trust__item">
+              <div class="trust__big">Clean</div>
+              <div class="trust__small">Professional finish</div>
+            </div>
+          </div>
+
+          <div class="contactChips">
+            <a class="chip" href="tel:+19197179559">📞 919-717-9559</a>
+            <a class="chip" href="mailto:estimates@envhomes.co">✉️ estimates@envhomes.co</a>
+            <a class="chip" href="sms:+19197179559">💬 Text us</a>
+          </div>
+        </div>
+
+        <!-- QUOTE CARD -->
+        <div class="card">
+          <h2 class="card__title">Request a Quote</h2>
+          <p class="card__sub">Tell us what you need. We’ll respond ASAP.</p>
+
+          <!-- FREE form handler: Formspree or Cloudflare Worker later.
+               For now, set up Formspree and replace action URL.
+               (I include exact steps below.) -->
+          <form id="quoteForm" action="https://formspree.io/f/maqbwloz" method="POST">
+            <label>
+              Name
+              <input name="name" autocomplete="name" required />
+            </label>
+
+            <label>
+              Phone
+              <input name="phone" autocomplete="tel" required />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" />
+            </label>
+
+            <label>
+              Property / Job Address (optional)
+              <input name="address" autocomplete="street-address" />
+            </label>
+
+            <label>
+              What do you need?
+              <textarea name="message" rows="4" placeholder="Example: turnover punch list, paint unit, drywall patch, pressure wash, fence repair..."></textarea>
+            </label>
+
+            <!-- Helps reduce spam -->
+            <input type="text" name="_gotcha" class="honeypot" tabindex="-1" autocomplete="off" />
+
+            <button class="btn btn--full" type="submit">Send Request</button>
+            <p class="fineprint">By submitting, you agree to be contacted about your request.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services</h2>
+        <p class="muted">Single job or ongoing maintenance—built for property managers and owners.</p>
+
+        <div class="grid grid--3">
+          <div class="tile"><h3>Interior Painting</h3><p>Spot prime + two coats. Clean lines. Fast turnaround.</p></div>
+          <div class="tile"><h3>Exterior Painting</h3><p>Prep, patching, and durable finishes that last.</p></div>
+          <div class="tile"><h3>Apartment Turnovers</h3><p>Make-readies, punch lists, quick scheduling, clean delivery.</p></div>
+
+          <div class="tile"><h3>Facilities Maintenance</h3><p>Service calls, ongoing upkeep, reliable communication.</p></div>
+          <div class="tile"><h3>Drywall Repair</h3><p>Patches, water spots, texture match, ready for paint.</p></div>
+          <div class="tile"><h3>Pressure Washing</h3><p>Walkways, siding, common areas, surface cleanup.</p></div>
+
+          <div class="tile"><h3>Junk Removal</h3><p>Haul-off, cleanup, turnover trash-outs.</p></div>
+          <div class="tile"><h3>Fencing / Decking</h3><p>Repairs and rebuilds for common areas and residences.</p></div>
+          <div class="tile"><h3>Minor Carpentry</h3><p>Trim, doors, hardware, small repairs done right.</p></div>
+
+          <div class="tile"><h3>Light Electrical</h3><p>Fixtures, outlets, switches, fans, basic troubleshooting.</p></div>
+          <div class="tile"><h3>Light Plumbing</h3><p>Toilets, faucets, disposals, minor leak repairs.</p></div>
+          <div class="tile"><h3>Turnkey Punch Lists</h3><p>One call to knock out multiple small issues efficiently.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews" class="section section--alt">
+      <div class="container">
+        <h2>Reviews</h2>
+        <p class="muted">Real feedback from real customers.</p>
+
+        <div class="grid grid--3">
+          <div class="quote">
+            <p>“★★★★★ Great communication and the quality was excellent.”</p>
+            <span>— Verified review</span>
+          </div>
+          <div class="quote">
+            <p>“★★★★★ Showed up on time and left everything clean.”</p>
+            <span>— Client feedback</span>
+          </div>
+          <div class="quote">
+            <p>“★★★★★ Fast scheduling and professional finish work.”</p>
+            <span>— Verified review</span>
+          </div>
+        </div>
+
+        <div class="links">
+          <a class="link" href="https://www.homeadvisor.com/rated.EnvHomes.70923251.html" target="_blank" rel="noreferrer">View HomeAdvisor reviews</a>
+          <a class="link" href="https://www.facebook.com/share/1RW8GAZCbk/?mibextid=wwXIfr" target="_blank" rel="noreferrer">View Facebook</a>
+        </div>
+
+        <p class="fineprint">
+          Next upgrade: we’ll replace the placeholder quotes with your top 6–12 reviews (or screenshots).
+        </p>
+      </div>
+    </section>
+
+    <!-- WORK / PHOTOS -->
+    <section id="work" class="section">
+      <div class="container">
+        <h2>Recent Work</h2>
+        <p class="muted">Add photos to build trust instantly. (Even 6–12 photos makes a huge difference.)</p>
+
+        <div class="gallery">
+          <div class="ph">Upload photo</div>
+          <div class="ph">Upload photo</div>
+          <div class="ph">Upload photo</div>
+          <div class="ph">Upload photo</div>
+          <div class="ph">Upload photo</div>
+          <div class="ph">Upload photo</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section--alt">
+      <div class="container contact">
+        <div>
+          <h2>Contact</h2>
+          <p class="muted">Apex, NC • 30-mile radius • By appointment</p>
+
+          <div class="contact__box">
+            <div><strong>Phone:</strong> <a href="tel:+19197179559">919-717-9559</a></div>
+            <div><strong>Email:</strong> <a href="mailto:estimates@envhomes.co">estimates@envhomes.co</a></div>
+            <div><strong>Service area:</strong> Apex, NC and surrounding areas (30 miles)</div>
+            <div><strong>Availability:</strong> By appointment</div>
+          </div>
+
+          <div class="cta" style="margin-top:14px">
+            <a class="btn" href="tel:+19197179559">Call Now</a>
+            <a class="btn btn--ghost" href="sms:+19197179559">Text Now</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card__title">Quick Quote</h3>
+          <p class="card__sub">Prefer email? Send details and photos.</p>
+          <a class="btn btn--full" href="mailto:estimates@envhomes.co?subject=Estimate%20Request%20-%20EnvHomes&body=Name%3A%0APhone%3A%0AAddress%3A%0AService%20Needed%3A%0ADetails%3A%0A">Email Request</a>
+          <a class="btn btn--ghost btn--full" href="#top">Use Form Above</a>
+          <p class="fineprint">Pro tip: photos + measurements = faster pricing.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>© <span id="year"></span> EnvHomes LLC. All rights reserved.</div>
+      <div class="footer__links">
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
